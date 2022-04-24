@@ -8,7 +8,7 @@ class App extends Component {
   state = { currentTemperature: 0 };
   increaseTemperature = () => {
     this.setState({ currentTemperature: this.state.currentTemperature + 1 });
-    // this.current çalışmadı , this.state.current olması gerek
+    
   };
   render() {
     let celciusTitle = "Celcius";
